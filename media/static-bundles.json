@@ -721,6 +721,18 @@
         "css/firefox/browsers/quantum.scss"
       ],
       "name": "quantum"
+    },
+    {
+      "files": [
+        "css/firefox/browsers/chromebook.scss"
+      ],
+      "name": "chromebook"
+    },
+    {
+      "files": [
+        "css/firefox/sync.scss"
+      ],
+      "name": "sync"
     }
   ],
   "js": [
@@ -1327,6 +1339,19 @@
         "js/firefox/more.js"
       ],
       "name": "more"
+    },
+    {
+      "files": [
+        "js/firefox/browsers/chromebook.js"
+      ],
+      "name": "chromebook"
+    },
+    {
+      "files": [
+        "js/base/mozilla-fxa-product-button.js",
+        "js/base/mozilla-fxa-product-button-init.js"
+      ],
+      "name": "sync"
     }
   ]
 }
