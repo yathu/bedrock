@@ -107,7 +107,7 @@ if (typeof window.Mozilla === 'undefined') {
             var version;
             var directLink;
             // Append stub attribution data to direct download links.
-            if (link.href && link.href.indexOf('https://download.mozilla.org') !== -1) {
+            if (link.href && (link.href.indexOf('https://download.mozilla.org') !== -1 || link.href.indexOf('https://bouncer-bouncer.stage.mozaws.net') !== -1)) {
 
                 version = link.getAttribute('data-download-version');
                 // Append attribution params to Windows 32bit, 64bit, and MSI installer links.
