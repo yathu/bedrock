@@ -46,6 +46,7 @@
             }
 
             var errorList = document.createElement('ul');
+            errorList.className = 'mzp-u-list-styled';
 
             for (var i = 0; i < errorArray.length; i++) {
                 var item = document.createElement('li');

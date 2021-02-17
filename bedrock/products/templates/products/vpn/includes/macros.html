@@ -11,7 +11,7 @@
 {% endmacro %}
 
 {% macro join_waitlist_button(link_text, is_conditional=True, position=None) -%}
-  <a class="vpn-button waitlist t-dark {% if is_conditional %}js-join-waitlist hide-from-legacy-ie{% endif %}" href="{{ url('products.vpn.invite') }}" data-cta-type="button" data-cta-text="Join the Waitlist" {% if position %}data-cta-position="{{ position }}"{% endif %}>
+  <a class="vpn-button waitlist t-dark {% if is_conditional %}js-join-waitlist hide-from-legacy-ie{% endif %}" href="{{ url('products.vpn.invite') }}" data-cta-type="button" data-cta-text="Join the VPN Waitlist" {% if position %}data-cta-position="{{ position }}"{% endif %}>
     {{ link_text }}
   </a>
 {% endmacro %}
@@ -33,7 +33,7 @@
       }
     ) }}
 
-    <a class="mzp-c-button mzp-t-secondary mzp-t-md js-join-waitlist hide-from-legacy-ie" href="{{ url('products.vpn.invite') }}" data-cta-type="button" data-cta-text="Join the Waitlist" data-cta-position="navigation">
+    <a class="mzp-c-button mzp-t-secondary mzp-t-md js-join-waitlist hide-from-legacy-ie" href="{{ url('products.vpn.invite') }}" data-cta-type="button" data-cta-text="Join the VPN Waitlist" data-cta-position="navigation">
       {{ alt_link_text }}
     </a>
 
@@ -46,7 +46,7 @@
         },
         optional_attributes={
           'data-cta-type': 'fxa-vpn',
-          'data-cta-text': 'Sign In',
+          'data-cta-text': 'VPN Sign In',
           'data-cta-position': 'navigation',
         }
     ) }}
