@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 134" style="enable-background:new 0 0 152 134;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#80808E;}
+	.st1{fill:#EEEEF1;}
+	.st2{fill:#9F9FAD;}
+	.st3{fill:#D8D8D8;}
+	.st4{fill:none;stroke:#D0D0D0;stroke-width:2.1192;stroke-linecap:round;stroke-linejoin:round;}
+	.st5{fill:#028FED;}
+	.st6{fill:#ECF0F1;}
+	.st7{fill:#3FE1B0;}
+	.st8{fill:#15C4A2;}
+	.st9{fill:#F3D55B;}
+	.st10{fill:#FFA266;}
+	.st11{fill:#591DCE;}
+	.st12{fill:#7542E5;}
+	.st13{display:none;}
+	.st14{display:inline;}
+	.st15{display:inline;fill:#028FED;}
+	.st16{display:inline;fill:#CECED7;}
+	.st17{display:inline;fill:#FFEA80;}
+	.st18{display:inline;fill:#FFD567;}
+	.st19{display:inline;fill:#FFA266;}
+	.st20{display:inline;fill:#FFAC3A;}
+	.st21{display:inline;fill:#591DCE;}
+	.st22{display:inline;fill:none;stroke:#999990;stroke-width:1.5;stroke-linecap:round;}
+	.st23{display:inline;fill:#BEBEC8;}
+	.st24{display:inline;fill:#ECF0F1;}
+	.st25{display:inline;fill:#DFDFE5;}
+	.st26{display:inline;fill:#F3D55B;}
+	.st27{display:inline;fill:#7542E5;}
+	.st28{display:inline;opacity:0.99;fill:none;stroke:#D0D0D0;stroke-width:2.1192;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
+	.st29{display:inline;fill:none;stroke:#D0D0D0;stroke-width:2.1192;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="browser">
+	<path id="window" class="st0" d="M142.3,1.3H3.4C2.5,1.3,1.7,2,1.7,2.9v105.6c0,0.9,0.7,1.7,1.7,1.7h138.9c0.9,0,1.7-0.7,1.7-1.7
+		V2.9C144,2,143.2,1.3,142.3,1.3z"/>
+	<path id="viewport" class="st1" d="M1.7,25.2v83.3c0,0.9,0.7,1.7,1.7,1.7h138.9c0.9,0,1.7-0.7,1.7-1.7V25.2H1.7z"/>
+	<polygon id="toolbar" class="st2" points="37.8,9.6 37.8,3.5 15.1,3.5 15.1,9.6 1.7,9.6 1.7,25.2 143.9,25.2 143.9,9.6 	"/>
+	<rect id="awesomebar" x="26.5" y="13.9" class="st3" width="109.4" height="6.7"/>
+</g>
+<g id="cook">
+	<line id="line_4" class="st4" x1="26.9" y1="81.7" x2="43.3" y2="81.7"/>
+	<line id="line_3" class="st4" x1="26.9" y1="76" x2="58.5" y2="76"/>
+	<line id="line_2" class="st4" x1="26.9" y1="70.4" x2="58.5" y2="70.4"/>
+	<line id="line_1" class="st4" x1="26.9" y1="64.7" x2="58.5" y2="64.7"/>
+	<line id="dot_2" class="st4" x1="18.3" y1="70.4" x2="19.1" y2="70.4"/>
+	<line id="dot_1" class="st4" x1="18.3" y1="64.7" x2="19.1" y2="64.7"/>
+	<line id="dot_3" class="st4" x1="18.3" y1="76" x2="19.1" y2="76"/>
+	<line id="dot_4" class="st4" x1="18.3" y1="81.9" x2="19.1" y2="81.9"/>
+	<rect id="image" x="18.3" y="32" class="st3" width="109" height="22"/>
+	<path id="background" class="st5" d="M70.5,64.6H150c0.9,0,1.7,0.7,1.7,1.7v50c0,0.9-0.7,1.7-1.7,1.7H70.5c-0.9,0-1.7-0.7-1.7-1.7
+		v-50C68.9,65.4,69.6,64.6,70.5,64.6z"/>
+	<path id="white_bit" class="st6" d="M124.1,97c0-3.3-2.7-6.1-6.1-6.1S112,93.6,112,97C111.9,97.1,124.1,97,124.1,97z"/>
+	<path id="leaf" class="st7" d="M102.7,89.8c-4.4-2.6-8.7-3.4-9.7-1.8c-1,1.6,1.8,5,6.2,7.7c4.4,2.6,9.7,1.8,9.7,1.8
+		S107.1,92.4,102.7,89.8z"/>
+	<path id="leaf_shadow" class="st8" d="M93.1,88c-1,1.6,1.8,5,6.2,7.7c4.4,2.6,9.7,1.8,9.7,1.8L93.1,88z"/>
+	<polygon id="yellow_bit" class="st9" points="122.1,70.3 125.2,73.4 122.1,76.5 119,73.4 	"/>
+	<polygon id="orange_bit" class="st10" points="112,77.5 117.4,82.9 112,88.3 106.6,82.9 	"/>
+	<path id="bowl" class="st11" d="M85.4,98.7c0,1.2,0,2.3,0,3.4h-3.7c-0.4,0-0.8,0.3-0.8,0.8v2.7c0,1.9,1.5,3.4,3.4,3.4h1.2
+		c0.7,12.9,4.3,14.6,24.8,14.6c24.9,0,24.9-2.5,24.9-24.8C135.2,98.7,85.4,98.8,85.4,98.7z"/>
+	<path id="bowl_highlight" class="st12" d="M110.3,123.5c20.4,0,24.1-1.7,24.8-14.6h1.2c1.9,0,3.4-1.5,3.4-3.4v-2.7
+		c0-0.4-0.3-0.8-0.8-0.8h-3.7c0-1.1,0-2.2,0-3.4c0,0-12.5,0-24.9,0L110.3,123.5z"/>
+</g>
+</svg>

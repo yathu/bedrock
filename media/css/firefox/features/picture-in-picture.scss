@@ -5,10 +5,9 @@
 $font-path: '/media/fonts';
 $image-path: '/media/protocol/img';
 
-@import "../../protocol/css/includes/lib";
-@import "../../protocol/css/components/hero";
-@import "../../protocol/css/components/article";
-@import "../../protocol/css/components/call-out";
+@import "../../../protocol/css/includes/lib";
+@import "../../../protocol/css/components/hero";
+@import "../../../protocol/css/components/feature-card";
 
 .mzp-c-hero.mzp-t-dark {
     background: $color-ink-80;
@@ -16,6 +15,11 @@ $image-path: '/media/protocol/img';
     @media #{$mq-lg} {
         margin-bottom: $layout-lg;
     }
+}
+
+.c-hero-pretitle {
+    @include text-title-2xs;
+    margin-bottom: $spacing-xl;
 }
 
 .mzp-c-button-download-container {
@@ -30,19 +34,54 @@ $image-path: '/media/protocol/img';
     }
 }
 
-// images
-.mzp-c-article img {
-    display: block;
-    margin: $layout-sm auto;
+.content-extra {
+    margin: $layout-lg 0;
+
+    .content-extra-title {
+        @include text-title-xs;
+        text-align: center;
+        margin-bottom: $layout-lg;
+    }
+}
+
+// Video
+.video-content {
+    @include aspect-ratio(16, 9);
+
+    iframe {
+        height: 100%;
+        width: 100%;
+    }
+
+    .video-play {
+        display: block;
+
+        &:after {
+            background: url('/media/img/icons/video-play.svg') top left no-repeat;
+            content: '';
+            height: 100px;
+            left: 50%;
+            margin: -50px 0 0 -50px;
+            opacity: 0.7;
+            position: absolute;
+            top: 50%;
+            transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+            width: 100px;
+            z-index: 2;
+        }
+
+        &:hover:after,
+        &:focus:after {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.secondary-cta {
     text-align: center;
 }
 
-//* -------------------------------------------------------------------------- */
-// Call out
-
-.mzp-c-call-out-compact.mzp-t-dark {
-    background: $color-ink-80;
-}
 
 //* -------------------------------------------------------------------------- */
 // Picto block
@@ -55,15 +94,18 @@ $image-path: '/media/protocol/img';
     padding: 0 $layout-md;
 
     .c-picto-block-title {
-        @include text-title-xs;
+        @include text-title-3xs;
         color: get-theme('title-text-color');
     }
 
     .c-picto-block-image {
-        align-items: center;
-        display: flex;
         margin-bottom: $spacing-md;
         min-height: $layout-md;
+        text-align: center;
+
+        img {
+            max-width: 140px;
+        }
     }
 }
 

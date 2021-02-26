@@ -1,0 +1,106 @@
+{# This Source Code Form is subject to the terms of the Mozilla Public
+ # License, v. 2.0. If a copy of the MPL was not distributed with this
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/. -#}
+
+{% from "macros-protocol.html" import hero with context %}
+
+{% extends "firefox/base/base-protocol.html" %}
+
+{% block page_title %}Firefox Picture-in-Picture: Get more done with pop-out videos{% endblock %}
+{% block page_desc %}Got things to do and things to watch? Do both using Picture-in-Picture in Firefox.{% endblock %}
+{% block page_image %}{{ static('img/firefox/features/fingerprinting/og.png') }}{% endblock %}
+
+{% block page_css %}
+  {{ css_bundle('firefox-features-pip') }}
+{% endblock %}
+
+{% block sub_navigation %}
+  {% include "firefox/features/includes/subnav.html" %}
+{% endblock %}
+
+{% block content %}
+<section class="mzp-c-hero mzp-has-image mzp-t-dark">
+  <div class="mzp-l-content">
+    <div class="mzp-c-hero-body">
+      <h1 class="c-hero-pretitle">Cool feature: Picture-in-Picture</h1>
+      <h2 class="mzp-c-hero-title">Get more done with pop-out videos</h2>
+      <div class="mzp-c-hero-desc">
+        <p>Got things to do and things to watch? Do both using Picture-in-Picture in Firefox. It lets you pop a video out of its webpage and pin it to your screen so you can keep watching while you’re on other pages, tabs and apps.</p>
+        <p>Save yourself time by multitasking with Picture-in-Picture, built right inside the Firefox web browser.</p>
+      </div>
+      <div class="mzp-c-hero-cta">
+        <div class="download-firefox">
+          {{ download_firefox(dom_id='features-pip-download-primary', download_location='primary cta') }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mzp-c-hero-image">
+    <img src="{{ static('img/firefox/features/pip/video-poster.jpg') }}" alt="">
+  </div>
+</section>
+
+<div class="mzp-l-content mzp-t-content-xl">
+  <section class="mzp-c-card-feature mzp-has-aspect-1-1 mzp-l-card-feature-right-half mzp-t-firefox">
+    <div class="mzp-c-card-feature-media-wrapper">
+      <div class="mzp-c-card-feature-media">
+        <div class="video-container">
+          <div class="video-content">
+            <a class="video-play js-video-play" href="https://youtu.be/F-nFQryDB0s" data-id="F-nFQryDB0s" data-video-title="Red Panda Cubs - Firefox + Woodland Park Zoo" title="{{ _('Play the video') }}">
+              <img src="{{ static('img/firefox/features/pip/video-poster.jpg') }}" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mzp-c-card-feature-content">
+      <div class="mzp-c-card-feature-content-container">
+        <h3 class="mzp-c-card-feature-title">Here’s how it works:</h3>
+        <div class="mzp-c-card-feature-desc">
+          <ol class="mzp-u-list-styled">
+            <li><strong>Play any video</strong> in your Firefox browser, like this one starring red panda cubs.</li>
+            <li><strong>Hover your cursor over the video</strong> and click the Picture-in-Picture button <img class="pip-icon" src="{{ static('img/firefox/features/pip/pip-icon.svg') }}" alt="Picture-in-picture icon" width="18" height="18">. This pops out the video.</li>
+            <li>Cruise around to other tabs or even outside of Firefox. <strong>The video stays put!</strong></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-extra">
+    <h3 class="content-extra-title">3 ways to use Picture-in-Picture</h3>
+
+    <div class="l-columns-three">
+      <div class="c-picto-block">
+        <div class="c-picto-block-image">
+          <img src="{{ static('img/firefox/features/pip/pip-lecture.svg') }}" alt="">
+        </div>
+        <h4 class="c-picto-block-title">Watch a lecture or meeting while you take notes</h4>
+      </div>
+
+      <div class="c-picto-block">
+        <div class="c-picto-block-image">
+          <img src="{{ static('img/firefox/features/pip/pip-cook.svg') }}" alt="">
+        </div>
+        <h4 class="c-picto-block-title">Keep a tutorial video open with a recipe while you cook</h4>
+      </div>
+
+      <div class="c-picto-block">
+        <div class="c-picto-block-image">
+          <img src="{{ static('img/firefox/features/pip/pip-entertain.svg') }}" alt="">
+        </div>
+        <h4 class="c-picto-block-title">Entertain cats, dogs and kids while you get work done</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="secondary-cta">
+    {{ download_firefox(dom_id='features-pip-bottom-download-secondary', download_location='secondary cta') }}
+  </section>
+</div>
+{% endblock %}
+
+{% block js %}
+  {{ js_bundle('firefox-features-pip') }}
+{% endblock %}
